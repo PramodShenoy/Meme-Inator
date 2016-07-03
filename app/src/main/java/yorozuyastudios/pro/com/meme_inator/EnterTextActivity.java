@@ -22,7 +22,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -31,21 +30,19 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
     private static final String APP_PICTURE_DIRECTORY = "/Memeify";
     private static final String FILE_SUFFIX_JPG = ".jpg";
     private static final String HELVETICA_FONT = "Helvetica";
-    private static final String IMAGE_URI_KEY = "IMAGE_URI";
     private static final String BITMAP_WIDTH = "BITMAP_WIDTH";
     private static final String BITMAP_HEIGHT = "BITMAP_HEIGHT";
-
-
-    private Bitmap viewBitmap;
-    private Uri pictureUri;
-    private boolean originalImage = false;
     private String path;
-    private ImageView selectedPicture;
-    private Button writeTextToImageButton;
-    private Button shareButton;
-    private Button saveImageButton;
     private EditText topTextEditText;
     private EditText bottomTextEditText;
+
+    private Bitmap viewBitmap;
+    private boolean originalImage = false;
+
+    private ImageView selectedPicture;
+    private Button writeTextToImageButton;
+    private Button saveImageButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,31 +54,27 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
 
         writeTextToImageButton = (Button) findViewById(R.id.write_text_to_image_button);
         writeTextToImageButton.setOnClickListener(this);
-        shareButton=(Button) findViewById(R.id.share_btn);
-        shareButton.setVisibility(View.GONE);
 
         saveImageButton = (Button) findViewById(R.id.save_image_button);
         saveImageButton.setOnClickListener(this);
 
         topTextEditText = (EditText) findViewById(R.id.top_text_edittext);
         bottomTextEditText = (EditText) findViewById(R.id.bottom_text_edittext);
+
         topTextEditText.setFilters(new InputFilter[] {new InputFilter.AllCaps()});
-        bottomTextEditText.setFilters(new InputFilter[] {new InputFilter.AllCaps()});
-
-
+        bottomTextEditText.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
 
         originalImage = true;
+
         Intent i=getIntent();
         path=i.getStringExtra("path");
-        //pictureUri = getIntent().getParcelableExtra(IMAGE_URI_KEY);
 
-       int bitmapWidth = getIntent().getIntExtra(BITMAP_WIDTH, 100);
-       int bitmapHeight = getIntent().getIntExtra(BITMAP_HEIGHT, 100);
+        int bitmapWidth = getIntent().getIntExtra(BITMAP_WIDTH, 100);
+        int bitmapHeight = getIntent().getIntExtra(BITMAP_HEIGHT, 100);
 
-        //Bitmap selectedImageBitmap = BitmapResizer.ShrinkBitmap(path.toString(), bitmapWidth, bitmapHeight);
-       // selectedPicture.setImageBitmap(BitmapFactory.decodeFile(path));
-        Bitmap selectedImageBitmap=ChooseActivity.scaleDown(BitmapFactory.decodeFile(path),700,true);
+        Bitmap selectedImageBitmap=ChooseActivity.scaleDown(BitmapFactory.decodeFile(path), 700, true);
         selectedPicture.setImageBitmap(selectedImageBitmap);
+
     }
 
     @Override
@@ -106,7 +99,7 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         String bottomText = bottomTextEditText.getText().toString();
 
         if (!originalImage) {
-            Bitmap bm = BitmapResizer.ShrinkBitmap(pictureUri.toString(), selectedPicture.getWidth(), selectedPicture.getHeight());
+            Bitmap bm = BitmapResizer.ShrinkBitmap(path.toString(), selectedPicture.getWidth(), selectedPicture.getHeight());
             selectedPicture.setImageBitmap(bm);
         }
 
@@ -121,27 +114,6 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         // set your imageview to show your newly edited bitmap to
         selectedPicture.setImageBitmap(viewBitmap);
         originalImage = false;
-        writeTextToImageButton.setVisibility(View.GONE);
-        shareButton.setVisibility(View.VISIBLE);
-    }
-    public void share(View v) throws FileNotFoundException {
-
-        String whatsAppMessage = "ENTER YOUR MESSAGE";
-
-        //You can read the image from external drive too
-        Uri uri = Uri.parse(path);
-
-
-
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_SEND);
-        intent.putExtra(Intent.EXTRA_TEXT, whatsAppMessage);
-        intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_STREAM,uri);
-        intent.setType("image/jpeg");
-        intent.setPackage("com.whatsapp");
-        startActivity(intent);
-
     }
 
     private void addTextToBitMap(Bitmap viewBitmap, String topText, String bottomText) {
@@ -186,6 +158,7 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
 
         pictureCanvas.drawText(bottomText, xPos, yPos, textPaintOutline);
         pictureCanvas.drawText(bottomText, xPos, yPos, textPaint);
+        pictureCanvas.save();
     }
 
     private void saveImageToGallery(Bitmap memeBitmap) {
@@ -193,9 +166,8 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         if (!originalImage) {
 
             // save bitmap to file
-            // File imageFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES + APP_PICTURE_DIRECTORY), memeBitmap + FILE_SUFFIX_JPG);
+           // File imageFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES + APP_PICTURE_DIRECTORY), memeBitmap + FILE_SUFFIX_JPG);
             File imageFile=new File(Environment.getExternalStorageDirectory(),memeBitmap + FILE_SUFFIX_JPG);
-
             try {
                 // create outputstream, compress image and write to file, flush and close outputstream
                 FileOutputStream fos = new FileOutputStream(imageFile);
@@ -203,7 +175,7 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
                 fos.flush();
                 fos.close();
             } catch (IOException e) {
-                Toast.makeText(this, "SAVE IMAGE FAILED", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"SAVE IMAGE FAILED", Toast.LENGTH_SHORT).show();
             }
             // Create intent to request newly created file to be scanned, pass picture uri and broadcast intent
             Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
@@ -211,11 +183,10 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
             sendBroadcast(mediaScanIntent);
 
 
-            Toast.makeText(this, "SUCCESSFULLY SAVED THE MEME",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "SUCCESSFULLY SAVED THE MEME", Toast.LENGTH_SHORT).show();
 
         } else {
             Toast.makeText(this, "WHY YOU NO GENERATE MEME?!!", Toast.LENGTH_SHORT).show();
         }
     }
 }
-

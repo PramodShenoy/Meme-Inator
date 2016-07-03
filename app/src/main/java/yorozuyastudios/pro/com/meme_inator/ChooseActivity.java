@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -168,6 +169,7 @@ public class ChooseActivity extends Activity {
     }
 
     public void startGallery() {
+
         Intent i = new Intent(
                 Intent.ACTION_PICK,
                 android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
@@ -202,7 +204,11 @@ public class ChooseActivity extends Activity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-
+        listImageView.setVisibility(View.GONE);
+        galleryImageView.requestLayout();
+        galleryImageView.getLayoutParams().height = ViewGroup.LayoutParams.WRAP_CONTENT;
+        galleryImageView.getLayoutParams().width= ViewGroup.LayoutParams.MATCH_PARENT;
+        //galleryImageView.getLayoutParams().height=800;
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == SELECT_IMAGE && resultCode == RESULT_OK && null != data) {
             Uri selectedImage = data.getData();
@@ -220,6 +226,7 @@ public class ChooseActivity extends Activity {
             text.setText(picturePath);
             galleryImageView.setImageBitmap(BitmapFactory.decodeFile(picturePath));
             pictureTaken=true;
+            lookingGoodTextView.setVisibility(View.VISIBLE);
         }
 
 

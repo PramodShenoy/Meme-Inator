@@ -32,13 +32,15 @@
         android:text="Top Text"
         android:textSize="18sp" />
 
+
     <EditText
         android:id="@+id/top_text_edittext"
         android:layout_width="match_parent"
+        android:inputType="textMultiLine"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:hint="HAHAHA"
+        android:hint="ENTER TOP TEXT"
         android:nextFocusDown="@+id/bottom_text_edittext"
         android:singleLine="true" />
 
@@ -57,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:hint="LOLOLOL"
+        android:hint="ENTER BOTTOM TEXT"
         android:singleLine="true" />
 
     <LinearLayout
@@ -67,23 +69,16 @@
 
         <Button
             android:id="@+id/write_text_to_image_button"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="INITIATE MEME-INATOR" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="SHARE"
-            android:id="@+id/share_btn"
-           android:layout_weight="1"
-            android:onClick="share"
-            />
+
 
         <Button
             android:id="@+id/save_image_button"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="SAVE IMAGE TO START A WAR" />

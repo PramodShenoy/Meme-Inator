@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#263238"
     tools:context=".SelectPictureActivity">
 
     <TextView
@@ -14,17 +15,36 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
+        android:textColor="#FFFFFF"
         android:text="WELCOME TO THE MEME GENERATOR!SELECT AN OPTION TO START"
         android:textSize="18sp" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/scroll_view"
+    android:layout_below="@+id/stage_one_instructions_textview"
+    android:layout_marginTop="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/picture_imageview"
-        android:layout_width="200dp"
-        android:layout_height="400dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/stage_one_instructions_textview"
-        android:src="@drawable/john_mem" />
+        android:id="@+id/list_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/will_presents"
+        android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/picture_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/john_mem"
+            android:layout_weight="1"
+            />
 
     <TextView
         android:id="@+id/looking_good_textview"
@@ -34,23 +54,19 @@
         android:gravity="center"
         android:text="THAT'S GOOD!LET'S CONTINUE"
         android:textSize="18sp"
-        android:visibility="invisible" />
+        android:visibility="invisible"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/enter_text_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="CONTINUE" />
+        android:text="CONTINUE"
+        />
 
+    </LinearLayout>
+</ScrollView>
 
-    <ImageView
-        android:id="@+id/list_imageview"
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/will_presents" />
 
 </RelativeLayout>
