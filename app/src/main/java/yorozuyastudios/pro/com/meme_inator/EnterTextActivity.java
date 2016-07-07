@@ -35,7 +35,8 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
     private String path;
     private EditText topTextEditText;
     private EditText bottomTextEditText;
-
+    private int resId;
+    private int flag1;
     private Bitmap viewBitmap;
     private boolean originalImage = false;
 
@@ -67,13 +68,21 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         originalImage = true;
 
         Intent i=getIntent();
-        path=i.getStringExtra("path");
+        flag1=i.getIntExtra("flag",0);
+        if(flag1==0) {
+            path = i.getStringExtra("path");
+            Bitmap selectedImageBitmap = ChooseActivity.scaleDown(BitmapFactory.decodeFile(path), 1000, true);
+            selectedPicture.setImageBitmap(selectedImageBitmap);
+        }
+        else if(flag1==1)
+        {
+            resId=i.getIntExtra("res-id",0);
+            Bitmap bmp=BitmapFactory.decodeResource(getResources(),resId);
+            Bitmap scaled=ChooseActivity.scaleDown(bmp,1000,true);
+            selectedPicture.setImageBitmap(scaled);
 
-        int bitmapWidth = getIntent().getIntExtra(BITMAP_WIDTH, 100);
-        int bitmapHeight = getIntent().getIntExtra(BITMAP_HEIGHT, 100);
+        }
 
-        Bitmap selectedImageBitmap=ChooseActivity.scaleDown(BitmapFactory.decodeFile(path), 700, true);
-        selectedPicture.setImageBitmap(selectedImageBitmap);
 
     }
 
@@ -98,9 +107,15 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         String topText = topTextEditText.getText().toString();
         String bottomText = bottomTextEditText.getText().toString();
 
-        if (!originalImage) {
+        if (!originalImage && flag1==0) {
             Bitmap bm = BitmapResizer.ShrinkBitmap(path.toString(), selectedPicture.getWidth(), selectedPicture.getHeight());
             selectedPicture.setImageBitmap(bm);
+        }
+        else if(!originalImage &&flag1==1)
+        {
+            Bitmap bmp=BitmapFactory.decodeResource(getResources(),resId);
+            Bitmap scaled=ChooseActivity.scaleDown(bmp,1000,true);
+            selectedPicture.setImageBitmap(scaled);
         }
 
         // get bitmap from imageView and copy to make mutable
@@ -144,7 +159,7 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         textPaintOutline.setTextSize(textSize);
         textPaintOutline.setColor(Color.BLACK);
         textPaintOutline.setTypeface(tf);
-        textPaintOutline.setStyle(Paint.Style.STROKE);
+        textPaintOutline.setStyle(Paint.Style.FILL_AND_STROKE);
         textPaintOutline.setTextAlign(Paint.Align.CENTER);
         textPaintOutline.setStrokeWidth(8);
 

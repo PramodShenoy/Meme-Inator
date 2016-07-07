@@ -38,7 +38,7 @@ public class ChooseActivity extends Activity {
     String filemanagerstring;
 
     private int SELECT_IMAGE = 1;
-
+    public int flag=0;
 
     private Uri selectedPhotoPath;
 
@@ -77,8 +77,9 @@ public class ChooseActivity extends Activity {
                     break;
                 case R.id.list_imageview:
                     //Inform the user the button2 has been clicked
-
-
+                    flag=1;
+                    Intent i=new Intent(ChooseActivity.this,MemeListActivity.class);
+                    startActivity(i);
                     break;
 
                 case R.id.enter_text_button:
@@ -161,6 +162,7 @@ public class ChooseActivity extends Activity {
              nextScreenIntent.putExtra("path",picturePath);
             nextScreenIntent.putExtra(BITMAP_WIDTH, galleryImageView.getWidth());
             nextScreenIntent.putExtra(BITMAP_HEIGHT, galleryImageView.getHeight());
+            nextScreenIntent.putExtra("flag",flag);
 
             startActivity(nextScreenIntent);
         } else {

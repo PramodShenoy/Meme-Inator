@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
 		ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:6:5-22:19
+ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:6:5-23:19
 MERGED from [com.android.support:appcompat-v7:23.2.0] D:\app dev\Meme-Inator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.0] D:\app dev\Meme-Inator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.0] D:\app dev\Meme-Inator\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\AndroidManifest.xml:7:5-20
@@ -66,6 +66,10 @@ activity#yorozuyastudios.pro.com.meme_inator.EnterTextActivity
 ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:21:9-64
 	android:name
 		ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:21:19-52
+activity#yorozuyastudios.pro.com.meme_inator.MemeListActivity
+ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml:22:19-51
 uses-sdk
 INJECTED from D:\app dev\Meme-Inator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.2.0] D:\app dev\Meme-Inator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\AndroidManifest.xml:21:5-23:78

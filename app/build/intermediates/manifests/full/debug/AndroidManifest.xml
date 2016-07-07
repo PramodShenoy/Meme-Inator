@@ -27,6 +27,7 @@
         <activity android:name="yorozuyastudios.pro.com.meme_inator.MainActivity" />
         <activity android:name="yorozuyastudios.pro.com.meme_inator.ChooseActivity" />
         <activity android:name="yorozuyastudios.pro.com.meme_inator.EnterTextActivity" />
+        <activity android:name="yorozuyastudios.pro.com.meme_inator.MemeListActivity" />
     </application>
 
 </manifest>
