@@ -9,38 +9,19 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 
 public class ChooseActivity extends Activity {
 
-    private static final int TAKE_PHOTO_REQUEST_CODE = 1;
-    private static final String APP_PICTURE_DIRECTORY = "/Memeify";
-    private static final String MIME_TYPE_IMAGE = "image/";
-    private static final String FILE_SUFFIX_JPG = ".jpg";
     private Boolean pictureTaken = false;
-    private static final String IMAGE_URI_KEY = "IMAGE_URI";
     private static final String BITMAP_WIDTH = "BITMAP_WIDTH";
     private static final String BITMAP_HEIGHT = "BITMAP_HEIGHT";
 
-    int column_index;
-    Intent intent = null;
-    // Declare our Views, so we can access them later
-    String logo, imagePath, Logo;
-    Cursor cursor;
-    String selectedImagePath;
-    //ADDED
-    String filemanagerstring;
-
     private int SELECT_IMAGE = 1;
     public int flag=0;
-
-    private Uri selectedPhotoPath;
-
     private ImageView galleryImageView;
-    private Button nextScreenButton;
     private ImageView listImageView;
     private String picturePath;
 

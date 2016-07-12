@@ -39,635 +39,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49f1b6eb-7b12-440b-8d50-8444fcfe7e5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/DividerItemDecoration.java" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\animated_vector_drawable_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\appcompat_v7_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\support_annotations_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\support_v4_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\support_vector_drawable_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_e53ae8bf95907a84c227af18127c4e2656f10bda.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_b84cf4794ecf97981722f71e9a92a2f3aadc9215.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_738ff79da9ead7e7a2a7f53183a9c90a81894d0b.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_416ccf767eb0b95c4b0b70a94e58bb6217bc4b6d.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_7b169e5cf45b98236ccda4a59589cd435a6b1394.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_551e3ee91682f1e73dca2a4f10b382c870a6ec3d.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_btn_checkbox_checked_mtrl.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_btn_checkbox_unchecked_mtrl.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_btn_radio_off_mtrl.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_btn_radio_on_mtrl.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_ab_back_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_clear_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_go_search_api_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_menu_copy_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_menu_cut_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_menu_overflow_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_menu_paste_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_menu_selectall_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_menu_share_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-anydpi-v21\abc_ic_voice_search_api_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_btn_checkbox_checked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_btn_checkbox_unchecked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_btn_radio_off_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_btn_radio_on_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_ab_back_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_clear_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_go_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_copy_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_cut_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_overflow_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_paste_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_selectall_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_share_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_voice_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_btn_checkbox_checked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_btn_checkbox_unchecked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_btn_radio_off_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_btn_radio_on_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_ab_back_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_clear_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_go_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_menu_copy_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_menu_cut_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_menu_overflow_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_menu_paste_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_menu_selectall_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_menu_share_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-ldpi-v4\abc_ic_voice_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_btn_checkbox_checked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_btn_checkbox_unchecked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_btn_radio_off_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_btn_radio_on_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_ab_back_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_clear_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_go_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_copy_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_cut_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_overflow_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_paste_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_selectall_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_share_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_voice_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_btn_checkbox_checked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_btn_checkbox_unchecked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_btn_radio_off_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_btn_radio_on_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_ab_back_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_clear_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_go_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_copy_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_cut_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_overflow_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_paste_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_selectall_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_share_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_voice_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_btn_checkbox_checked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_btn_checkbox_unchecked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_btn_radio_off_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_btn_radio_on_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_ab_back_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_clear_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_go_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_menu_copy_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_menu_cut_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_menu_overflow_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_menu_paste_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_menu_selectall_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_menu_share_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxhdpi-v4\abc_ic_voice_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_btn_checkbox_checked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_btn_checkbox_unchecked_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_btn_radio_off_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_btn_radio_on_mtrl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_ab_back_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_clear_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_go_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_menu_copy_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_menu_cut_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_menu_overflow_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_menu_paste_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_menu_selectall_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_menu_share_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable-xxxhdpi-v4\abc_ic_voice_search_api_material.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable\conf_baby2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable\dekh_bhai.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable\nigga.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable\spongebob_nocare.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable\troll_no.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\build\intermediates\res\merged\debug\drawable\why_always_me.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\src\main\res\drawable\conf_baby2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\src\main\res\drawable\dekh_bhai.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\src\main\res\drawable\nigga.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\src\main\res\drawable\spongebob_nocare.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\src\main\res\drawable\troll_no.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\app\src\main\res\drawable\why_always_me.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/ChooseActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/ChooseActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/ChooseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/ChooseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/Meme.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/Meme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/MemeAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/MemeAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/MemeListActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/MemeListActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/MemeListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/MemeListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/yorozuyastudios/pro/com/meme_inator/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/aaaaand_its_gone.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/aaaaand_its_gone.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/aaaaand_its_gone.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aaaaand_its_gone.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/all_things.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/all_things.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/all_things.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/all_things.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/aloknath.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/aloknath.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/aloknath.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aloknath.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/aloknath1.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/aloknath1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/aloknath1.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aloknath1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/am_i_the.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/am_i_the.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/am_i_the.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/am_i_the.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/amrish_puri.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/amrish_puri.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/amrish_puri.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/amrish_puri.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/ancient_aliens.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/ancient_aliens.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ancient_aliens.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ancient_aliens.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/angry_baby.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/angry_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/angry_baby.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/angry_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/angry_doge.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/angry_doge.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/angry_doge.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/angry_doge.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/angry_husky.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/angry_husky.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/angry_husky.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/angry_husky.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/arnab_thug_life.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/arnab_thug_life.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/arnab_thug_life.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arnab_thug_life.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/baby_godfather.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/baby_godfather.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/baby_godfather.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baby_godfather.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/baby_naughty.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/baby_naughty.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/baby_naughty.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baby_naughty.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/bad_luck_brian.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/bad_luck_brian.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bad_luck_brian.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bad_luck_brian.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/batman_robin.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/batman_robin.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/batman_robin.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/batman_robin.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/be_like_bill.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/be_like_bill.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/be_like_bill.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/be_like_bill.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/bear_grylls.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/bear_grylls.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bear_grylls.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bear_grylls.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/bomb_people.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/bomb_people.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bomb_people.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bomb_people.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/boromir1.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/boromir1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/boromir1.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/boromir1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/brace3.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/brace3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/brace3.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/brace3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/brace_yourselves.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/brace_yourselves.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/brace_yourselves.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/brace_yourselves.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/brace_yourselves_small.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/brace_yourselves_small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/brace_yourselves_small.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/brace_yourselves_small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/buddy_christ.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/buddy_christ.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buddy_christ.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buddy_christ.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/business_cat.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/business_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/business_cat.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/business_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/butthurt_dweller.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/butthurt_dweller.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/butthurt_dweller.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/butthurt_dweller.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/calm_lemur.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/calm_lemur.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/calm_lemur.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/calm_lemur.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cat_smile.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cat_smile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cat_smile.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cat_smile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/celeb_baby.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/celeb_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/celeb_baby.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/celeb_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cereal_guy.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cereal_guy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cereal_guy.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cereal_guy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/chem_cat.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/chem_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/chem_cat.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chem_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/chuck_norris.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/chuck_norris.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/chuck_norris.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chuck_norris.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cid.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cid.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cid.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/conf_baby.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/conf_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/conf_baby.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/conf_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/conf_seal.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/conf_seal.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/conf_seal.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/conf_seal.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/confession_bear.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/confession_bear.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/confession_bear.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/confession_bear.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cool_cat.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/cool_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cool_cat.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cool_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/correction_guy.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/correction_guy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/correction_guy.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/correction_guy.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_1fe74781315ddb47e1c238cdcf5bd5eea26bc37f.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_1fe74781315ddb47e1c238cdcf5bd5eea26bc37f.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/depressed.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/depressed.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/depressed.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/depressed.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/disaster_girl.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/disaster_girl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/disaster_girl.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/disaster_girl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/doesntmatter.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/doesntmatter.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/doesntmatter.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/doesntmatter.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/doge.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/doge.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/doge.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/doge.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/doge2.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/doge2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/doge2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/doge2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/drunk_baby.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/drunk_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drunk_baby.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drunk_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/drunk_baby2.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/drunk_baby2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drunk_baby2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drunk_baby2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/drunk_obama.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/drunk_obama.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drunk_obama.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drunk_obama.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/dumbstruck_koala.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/dumbstruck_koala.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dumbstruck_koala.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dumbstruck_koala.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/dwight_schrute.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/dwight_schrute.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dwight_schrute.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dwight_schrute.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/engg_prof.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/engg_prof.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/engg_prof.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/engg_prof.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/everywhere.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/everywhere.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/everywhere.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/everywhere.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/evil_racc.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/evil_racc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/evil_racc.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/evil_racc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/evil_toddler.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/evil_toddler.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/evil_toddler.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/evil_toddler.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/facepalm.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/facepalm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/facepalm.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/facepalm.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/finally_over.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/finally_over.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/finally_over.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/finally_over.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/first_day_on_the_internet_kid.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/first_day_on_the_internet_kid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/first_day_on_the_internet_kid.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/first_day_on_the_internet_kid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/first_world_problems.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/first_world_problems.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/first_world_problems.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/first_world_problems.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/futurama_fry.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/futurama_fry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/futurama_fry.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/futurama_fry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/gay_seal.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/gay_seal.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gay_seal.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gay_seal.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/gollum.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/gollum.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gollum.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gollum.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/gordon_ramsay.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/gordon_ramsay.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gordon_ramsay.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gordon_ramsay.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/grumpy_cat.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/grumpy_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grumpy_cat.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/grumpy_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/grumpy_cat1.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/grumpy_cat1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grumpy_cat1.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/grumpy_cat1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/heavy_breathing_cat.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/heavy_breathing_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavy_breathing_cat.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavy_breathing_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/high_guy.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/high_guy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/high_guy.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/high_guy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/ill_have_you_know.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/ill_have_you_know.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ill_have_you_know.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ill_have_you_know.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/impossibru.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/impossibru.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/impossibru.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/impossibru.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/iykwim.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/iykwim.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/iykwim.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iykwim.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/jackie.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/jackie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jackie.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/jackie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/john_mem.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/john_mem.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/john_mem.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/john_mem.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/joker.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/joker.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/joker.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/joker.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kejri.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kejri.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kejri.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kejri.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kejri2.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kejri2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kejri2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kejri2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kejru_angry.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kejru_angry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kejru_angry.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kejru_angry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kim_jong_un_sad.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/kim_jong_un_sad.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kim_jong_un_sad.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kim_jong_un_sad.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/lame_pun_eel.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/lame_pun_eel.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/lame_pun_eel.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lame_pun_eel.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/laughing_obama.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/laughing_obama.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/laughing_obama.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/laughing_obama.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/lazy_college_senior.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/lazy_college_senior.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/lazy_college_senior.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lazy_college_senior.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/leo_cheers.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/leo_cheers.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/leo_cheers.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/leo_cheers.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/liam_neeson.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/liam_neeson.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/liam_neeson.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/liam_neeson.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/lk.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/lk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/lk.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/look_at_all.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/look_at_all.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/look_at_all.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/look_at_all.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/matrix_morpheus.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/matrix_morpheus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/matrix_morpheus.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/matrix_morpheus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/maxresdefault.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/maxresdefault.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/maxresdefault.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/maxresdefault.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mj_popcorn.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mj_popcorn.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mj_popcorn.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mj_popcorn.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mr_bean.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/mr_bean.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mr_bean.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mr_bean.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/naacho_bc.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/naacho_bc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/naacho_bc.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/naacho_bc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/namo_china.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/namo_china.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/namo_china.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/namo_china.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/namo_s.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/namo_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/namo_s.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/namo_s.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/nana_angry.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/nana_angry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nana_angry.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nana_angry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/nobody_cares.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/nobody_cares.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nobody_cares.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nobody_cares.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/none_business.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/none_business.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/none_business.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/none_business.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/not_bad_obama.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/not_bad_obama.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/not_bad_obama.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/not_bad_obama.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/obama2.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/obama2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/obama2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/obama2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/obama_pissed.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/obama_pissed.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/obama_pissed.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/obama_pissed.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/open1.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/open1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/open1.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/open1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/patrick_star.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/patrick_star.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/patrick_star.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/patrick_star.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/pepe.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/pepe.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pepe.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pepe.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/pepe_sad.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/pepe_sad.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pepe_sad.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pepe_sad.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/philosoraptor.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/philosoraptor.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/philosoraptor.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/philosoraptor.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/plotting_racc.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/plotting_racc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/plotting_racc.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/plotting_racc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/prof_oak.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/prof_oak.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/prof_oak.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/prof_oak.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/proud_trump.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/proud_trump.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/proud_trump.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/proud_trump.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/putin_good.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/putin_good.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/putin_good.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/putin_good.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rahul1.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rahul1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rahul1.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rahul1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rahul2.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rahul2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rahul2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rahul2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rahul_babbarsher.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rahul_babbarsher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rahul_babbarsher.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rahul_babbarsher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rajani_mindit.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rajani_mindit.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rajani_mindit.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rajani_mindit.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rich_men_lol.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/rich_men_lol.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rich_men_lol.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rich_men_lol.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sad_polar.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sad_polar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sad_polar.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sad_polar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sarcastic_nicholas_cage.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sarcastic_nicholas_cage.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sarcastic_nicholas_cage.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sarcastic_nicholas_cage.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/scared_baby.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/scared_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/scared_baby.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/scared_baby.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/scumbag_steve.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/scumbag_steve.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/scumbag_steve.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/scumbag_steve.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/shut_up_money.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/shut_up_money.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shut_up_money.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shut_up_money.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/snape.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/snape.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/snape.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/snape.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/so_much_win.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/so_much_win.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/so_much_win.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/so_much_win.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spiderman_hospital.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spiderman_hospital.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spiderman_hospital.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spiderman_hospital.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spiderman_jerk.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spiderman_jerk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spiderman_jerk.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spiderman_jerk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spiderman_peter_parker.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spiderman_peter_parker.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spiderman_peter_parker.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spiderman_peter_parker.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_approves.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_approves.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_approves.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_approves.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_butt.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_butt.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_butt.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_butt.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_high.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_high.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_high.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_high.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_hot.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_hot.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_hot.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_hot.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_whisper.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/spidey_whisper.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_whisper.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spidey_whisper.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sponge_obaa.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sponge_obaa.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sponge_obaa.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sponge_obaa.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/squid_hard_work.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/squid_hard_work.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/squid_hard_work.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/squid_hard_work.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/squidward.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/squidward.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/squidward.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/squidward.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sudden_realisation.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sudden_realisation.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sudden_realisation.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sudden_realisation.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/surprized_vegeta.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/surprized_vegeta.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/surprized_vegeta.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/surprized_vegeta.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sweet_brown.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sweet_brown.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sweet_brown.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sweet_brown.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/teacher.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/teacher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/teacher.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/teacher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/that_escalate.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/that_escalate.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/that_escalate.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/that_escalate.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/that_would_be_great.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/that_would_be_great.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/that_would_be_great.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/that_would_be_great.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/the_most_interesting_man.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/the_most_interesting_man.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/the_most_interesting_man.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/the_most_interesting_man.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/third_world_skeptical_kid.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/third_world_skeptical_kid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/third_world_skeptical_kid.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/third_world_skeptical_kid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/third_world_success_kid.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/third_world_success_kid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/third_world_success_kid.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/third_world_success_kid.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/to_do_list.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/to_do_list.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/to_do_list.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/to_do_list.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/tony.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/tony.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/tony.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tony.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/too_high.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/too_high.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/too_high.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/too_high.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_cry.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_cry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/troll_cry.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/troll_cry.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_face.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_face.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/troll_face.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/troll_face.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_foreverlone.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_foreverlone.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/troll_foreverlone.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/troll_foreverlone.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_lab.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_lab.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/troll_lab.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/troll_lab.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_shock.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/troll_shock.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/troll_shock.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/troll_shock.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/trump.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/trump.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/trump.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/trump.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/unhelpful_high_school_teacher.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/unhelpful_high_school_teacher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/unhelpful_high_school_teacher.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/unhelpful_high_school_teacher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wait.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wait.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wait.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wait.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/what.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/what.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/what.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/what.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/what2.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/what2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/what2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/what2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/why.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/why.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/why.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/why.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/will_presents.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/will_presents.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/will_presents.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/will_presents.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/willy_wonka.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/willy_wonka.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/willy_wonka.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/willy_wonka.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wtf_jackie.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wtf_jackie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wtf_jackie.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wtf_jackie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/yo_dawg.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/yo_dawg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/yo_dawg.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/yo_dawg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/yo_goose.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/yo_goose.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/yo_goose.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/yo_goose.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/yuno.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/yuno.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/yuno.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/yuno.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/Meme.java" afterPath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/Meme.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/yorozuyastudios/pro/com/meme_inator/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/yorozuyastudios/pro/com/meme_inator/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_choose.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_choose.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_entertext.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_entertext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/layout_memelist.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/layout_memelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_memelist.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_memelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/row_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/row_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-land/values-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Meme-Inator.iws" />
@@ -696,14 +85,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_entertext.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_entertext.xml">
+      <file leaf-file-name="EnterTextActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChooseActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.060822897">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#1249#1901#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_choose.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_choose.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state vertical-scroll-proportion="-4.6896553">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_memelist.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_memelist.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1034484">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -2312,7 +1737,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/EndlessScroll.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/Meme.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
@@ -2320,6 +1744,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_memelist.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_choose.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java" />
       </list>
     </option>
   </component>
@@ -2336,7 +1761,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -2651,7 +2076,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2662,8 +2087,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.91141397" sideWeight="0.11043873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.8895613" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.8895613" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4616695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3100511" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -2671,7 +2096,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24810319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3054,17 +2479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9731663">
-          <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
-          <folding>
-            <element signature="e#1886#2538#0" expanded="true" />
-            <element signature="e#2537#2538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/MemeListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3074,47 +2488,6 @@
             <element signature="e#15075#15076#0" expanded="true" />
             <element signature="e#15126#15127#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2236842">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16037735">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_memelist.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2245283">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_choose.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25660378">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3128,8 +2501,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/EnterTextActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1824687">
+        <state vertical-scroll-proportion="0.0">
           <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3207547">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35150376">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3142,6 +2534,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_memelist.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1034484">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_choose.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6896553">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/yorozuyastudios/pro/com/meme_inator/ChooseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060822897">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#1249#1901#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
