@@ -71,7 +71,10 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         flag1=i.getIntExtra("flag",0);
         if(flag1==0) {
             path = i.getStringExtra("path");
-            Bitmap selectedImageBitmap = ChooseActivity.scaleDown(BitmapFactory.decodeFile(path), 1000, true);
+           int ht= i.getIntExtra(BITMAP_HEIGHT,500);
+            int wdt=i.getIntExtra(BITMAP_WIDTH,500);
+            //Bitmap selectedImageBitmap = ChooseActivity.scaleDown(BitmapFactory.decodeFile(path), 2000, true);
+            Bitmap selectedImageBitmap = BitmapResizer.ShrinkBitmap(path, ht, wdt);
             selectedPicture.setImageBitmap(selectedImageBitmap);
         }
         else if(flag1==1)
@@ -108,7 +111,7 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         String bottomText = bottomTextEditText.getText().toString();
 
         if (!originalImage && flag1==0) {
-            Bitmap bm = BitmapResizer.ShrinkBitmap(path.toString(), selectedPicture.getWidth(), selectedPicture.getHeight());
+            Bitmap bm = BitmapResizer.ShrinkBitmap(path, selectedPicture.getWidth(), selectedPicture.getHeight());
             selectedPicture.setImageBitmap(bm);
         }
         else if(!originalImage &&flag1==1)
@@ -151,7 +154,7 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         Paint textPaint = new Paint();
         textPaint.setTextSize(textSize);
         textPaint.setColor(Color.WHITE);
-        textPaint.setTypeface(tf);
+        textPaint.setTypeface(Typeface.createFromAsset(getAssets(),"obelixpro.ttf"));
         textPaint.setTextAlign(Paint.Align.CENTER);
 
         Paint textPaintOutline = new Paint();
@@ -159,9 +162,9 @@ public class EnterTextActivity extends Activity implements View.OnClickListener 
         textPaintOutline.setTextSize(textSize);
         textPaintOutline.setColor(Color.BLACK);
         textPaintOutline.setTypeface(tf);
-        textPaintOutline.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaintOutline.setStyle(Paint.Style.STROKE);
         textPaintOutline.setTextAlign(Paint.Align.CENTER);
-        textPaintOutline.setStrokeWidth(8);
+        textPaintOutline.setStrokeWidth(6);
 
         float xPos = bitmapWidth / 2;
         float yPos = bitmapHeight / 7;

@@ -1,5 +1,8 @@
 package yorozuyastudios.pro.com.meme_inator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //Class for the custom array adapter with a textview and an image view
 public class Meme {
 
@@ -18,5 +21,7 @@ public class Meme {
 
 
     public int getImgResId(){ return  ImgResId;}
+
+
 
 }
