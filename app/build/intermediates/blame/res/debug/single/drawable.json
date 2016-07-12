@@ -16,12 +16,12 @@
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\spiderman_hospital.jpg"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\batman_robin.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\batman_robin.jpg"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\naacho_bc.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\naacho_bc.jpg"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\batman_robin.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\batman_robin.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yo_dawg.jpg",
@@ -156,12 +156,12 @@
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\what2.jpg"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\disaster_girl.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\disaster_girl.jpg"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\not_bad_obama.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\not_bad_obama.jpg"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\disaster_girl.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\disaster_girl.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spidey_whisper.jpg",
@@ -196,20 +196,20 @@
         "source": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\splash.jpg"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spidey_hot.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\spidey_hot.jpg"
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\splash.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tony.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\tony.jpg"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spidey_hot.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\spidey_hot.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\that_escalate.jpg",
@@ -220,24 +220,24 @@
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\ancient_aliens.jpg"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shut_up_money.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\shut_up_money.jpg"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pepe_sad.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\pepe_sad.jpg"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shut_up_money.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\shut_up_money.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\willy_wonka.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\willy_wonka.jpg"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rajani_mindit.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\rajani_mindit.jpg"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mj_popcorn.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\mj_popcorn.jpg"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rajani_mindit.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\rajani_mindit.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
@@ -316,12 +316,12 @@
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\amrish_puri.jpg"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kejri.jpg",
-        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\kejri.jpg"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\boromir1.jpg",
         "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\boromir1.jpg"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kejri.jpg",
+        "source": "D:\\app dev\\Meme-Inator\\app\\src\\main\\res\\drawable\\kejri.jpg"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\obama_pissed.jpg",
