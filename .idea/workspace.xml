@@ -56,17 +56,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49f1b6eb-7b12-440b-8d50-8444fcfe7e5d" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\animated_vector_drawable_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\appcompat_v7_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\design_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\recyclerview_v7_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\support_annotations_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\support_v4_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\app dev\Meme-Inator\.idea\libraries\support_vector_drawable_23_4_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="49f1b6eb-7b12-440b-8d50-8444fcfe7e5d" name="Default" comment="" />
     <ignored path="Meme-Inator.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
