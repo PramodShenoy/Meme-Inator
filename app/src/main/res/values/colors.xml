@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#1565C0</color>
-    <color name="colorAccent">#1A237E</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorAccent">#FF1744</color>
+    <color name="primaryC">#3F51B5</color>
+    <color name="secondaryC">#9FA8DA</color>
 </resources>

@@ -24,9 +24,9 @@
         android:textSize="20sp"
         android:textColor="#FFFFFF"
         android:shadowColor="#EEEEEE"
-        android:shadowRadius="4"
-        android:shadowDx="2"
-        android:shadowDy="4"
+        android:shadowRadius="3"
+        android:shadowDx="4"
+        android:shadowDy="2"
 
         android:textAllCaps="true"/>
 

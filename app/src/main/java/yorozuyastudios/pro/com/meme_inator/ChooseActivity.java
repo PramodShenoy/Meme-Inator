@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -21,7 +22,7 @@ public class ChooseActivity extends Activity {
 
     private int SELECT_IMAGE = 1;
     public int flag=0;
-    private ImageView galleryImageView;
+    public static ImageView galleryImageView;
     private ImageView listImageView;
     private String picturePath;
 
@@ -70,14 +71,42 @@ public class ChooseActivity extends Activity {
         if (pictureTaken) {
             Intent nextScreenIntent = new Intent(this, EnterTextActivity.class);
              nextScreenIntent.putExtra("path",picturePath);
-            nextScreenIntent.putExtra(BITMAP_WIDTH, galleryImageView.getWidth());
-            nextScreenIntent.putExtra(BITMAP_HEIGHT, galleryImageView.getHeight());
+            nextScreenIntent.putExtra(BITMAP_WIDTH, BitmapFactory.decodeFile(picturePath).getWidth());
+            nextScreenIntent.putExtra(BITMAP_HEIGHT, BitmapFactory.decodeFile(picturePath).getHeight());
             nextScreenIntent.putExtra("flag",flag);
 
             startActivity(nextScreenIntent);
         } else {
             Toast.makeText(this, "PLEASE SELECT AN OPTION", Toast.LENGTH_SHORT).show();
         }
+    }
+   /* private Boolean exit = false;
+    @Override
+    public void onBackPressed() {
+        if (exit) {
+            finish(); // finish activity
+        } else {
+            Toast.makeText(this, "Press Back again to Exit.",
+                    Toast.LENGTH_SHORT).show();
+            exit = true;
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    exit = false;
+                }
+            }, 3 * 1000);
+
+        }
+
+    }*/
+    @Override
+           public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);//***Change Here***
+        startActivity(intent);
+        finish();
+        System.exit(0);
     }
 
     public void startGallery() {

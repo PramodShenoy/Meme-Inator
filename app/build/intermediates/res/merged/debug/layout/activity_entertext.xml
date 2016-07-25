@@ -1,3 +1,10 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryC"
+    >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,23 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_weight="1"
+        android:textColor="#FFFFFF"
         android:gravity="center"
         android:text="ENTER THE TEXT FOR YOUR MEME"
-        android:textSize="18sp" />
-
-    <ImageView
-        android:id="@+id/selected_picture_imageview"
-        android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:layout_weight="2"/>
-
-    <TextView
-        android:id="@+id/top_title_textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="Top Text"
         android:textSize="18sp" />
 
 
@@ -44,14 +37,27 @@
         android:nextFocusDown="@+id/bottom_text_edittext"
         android:singleLine="true" />
 
-    <TextView
-        android:id="@+id/bottom_title_textview"
+
+    <EditText
+        android:id="@+id/mid_text_edittext"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
+        android:inputType="textMultiLine"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Bottom Text"
-        android:textSize="18sp" />
+        android:hint="ENTER SECOND LINE"
+        android:nextFocusDown="@+id/bottom_text_edittext"
+        android:singleLine="true" />
+
+
+    <ImageView
+        android:id="@+id/selected_picture_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_weight="2"/>
+
+
 
     <EditText
         android:id="@+id/bottom_text_edittext"
@@ -62,27 +68,23 @@
         android:hint="ENTER BOTTOM TEXT"
         android:singleLine="true" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/write_text_to_image_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
-
-        <Button
-            android:id="@+id/write_text_to_image_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="INITIATE MEME-INATOR" />
+        android:layout_margin="8dp"
+        android:text="INITIATE MEME-INATOR"
+        android:background="@drawable/button_selector"/>
 
 
 
-        <Button
-            android:id="@+id/save_image_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="SAVE IMAGE TO START A WAR" />
+    <Button
+        android:id="@+id/save_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE IMAGE TO START A WAR"
+        android:background="@drawable/button_selector"/>
 
-    </LinearLayout>
 
 </LinearLayout>
+    </ScrollView>

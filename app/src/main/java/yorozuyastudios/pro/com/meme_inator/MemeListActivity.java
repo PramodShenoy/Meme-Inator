@@ -3,15 +3,20 @@ package yorozuyastudios.pro.com.meme_inator;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.GestureDetector;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +24,13 @@ import java.util.List;
 public class MemeListActivity extends AppCompatActivity {
     private MemeAdapter memeAdapter;
     private List<Meme> memeList = new ArrayList<>();
+    private List<Meme> filteredList=new ArrayList<>();
     private RecyclerView recyclerView;
+    private EditText search;
+    int count=0;
+
+    private RecyclerView rec;
+    private MemeAdapter adapter;
 
 
     @Override
@@ -27,52 +38,34 @@ public class MemeListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_memelist);
 
+        // add the custom view to the action bar
+        search = (EditText) findViewById( R.id.search);
+        search.setVisibility(View.GONE);
+
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        prepareMemeData();
+        memeAdapter = new MemeAdapter(memeList,this);
 
-        memeAdapter = new MemeAdapter(memeList);
-
-        recyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(memeAdapter);
-
-
-        //editsearch = (EditText) findViewById(R.id.inputSearch);
-
-        // Capture Text in EditText
-        //editsearch.addTextChangedListener(new TextWatcher() {
-
-           /* @Override
-            public void afterTextChanged(Editable arg0) {
-                // TODO Auto-generated method stub
-                String text = editsearch.getText().toString().toLowerCase(Locale.getDefault());
-                memeAdapter.filter(text);
-            }
-
-            @Override
-            public void beforeTextChanged(CharSequence arg0, int arg1,
-                                          int arg2, int arg3) {
-                // TODO Auto-generated method stub
-            }
-
-            @Override
-            public void onTextChanged(CharSequence arg0, int arg1, int arg2,
-                                      int arg3) {
-                // TODO Auto-generated method stub
-            }
-        });*/
 
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), recyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
                 Meme meme = memeList.get(position);
-                Toast.makeText(getApplicationContext(), meme.getMemeName() + " is selected!", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), meme.getMemeName() + " is selected!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MemeListActivity.this, EnterTextActivity.class);
                 intent.putExtra("flag", 1);
                 int id = meme.getImgResId();
                 intent.putExtra("res-id", id);
+                int h = BitmapFactory.decodeResource(getResources(), id).getHeight();
+                int w = BitmapFactory.decodeResource(getResources(), id).getWidth();
+                intent.putExtra("height", h);
+                intent.putExtra("width", w);
                 startActivity(intent);
             }
 
@@ -81,8 +74,94 @@ public class MemeListActivity extends AppCompatActivity {
 
             }
         }));
+        addTextListener();
 
-        prepareMemeData();
+
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        /** Create an option menu from res/menu/items.xml */
+        getMenuInflater().inflate(R.menu.menu, menu);
+        MenuItem pinMenuItem = menu.findItem(R.id.search2);
+     //  pinMenuItem.setIcon(R.drawable.ic_search);
+
+        pinMenuItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                count++;
+                if(count%2!=0) {
+                    search.setVisibility(View.VISIBLE);
+                    return false;
+                }
+                else
+                {
+                    search.setVisibility(View.GONE);
+                    return false;
+                }
+            }
+        });
+
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
+  public void addTextListener(){
+
+      search.addTextChangedListener(new TextWatcher() {
+
+          public void afterTextChanged(Editable s) {}
+
+          public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+          public void onTextChanged(CharSequence query, int start, int before, int count) {
+
+              query = query.toString().toLowerCase();
+
+               filteredList = new ArrayList<>();
+
+              for (int i = 0; i < memeList.size(); i++) {
+                    final Meme obj=memeList.get(i);
+                  final String text = obj.getMemeName().toLowerCase();
+                  if (text.contains(query)) {
+
+                      filteredList.add(memeList.get(i));
+                  }
+              }
+                rec=(RecyclerView) findViewById(R.id.recycler_view);
+              rec.setLayoutManager(new LinearLayoutManager(MemeListActivity.this));
+              adapter = new MemeAdapter(filteredList, MemeListActivity.this);
+              rec.setAdapter(adapter);
+              adapter.notifyDataSetChanged();  // data set changed
+              rec.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), rec, new ClickListener() {
+                  @Override
+                  public void onClick(View view, int position) {
+                      Meme meme = filteredList.get(position);
+                     // Toast.makeText(getApplicationContext(), meme.getMemeName() + " is selected!", Toast.LENGTH_SHORT).show();
+                      Intent intent = new Intent(MemeListActivity.this, EnterTextActivity.class);
+                      intent.putExtra("flag", 1);
+                      int id = meme.getImgResId();
+                      intent.putExtra("res-id", id);
+                      int h = BitmapFactory.decodeResource(getResources(), id).getHeight();
+                      int w = BitmapFactory.decodeResource(getResources(), id).getWidth();
+                      intent.putExtra("height", h);
+                      intent.putExtra("width", w);
+                      startActivity(intent);
+                  }
+
+                  @Override
+                  public void onLongClick(View view, int position) {
+
+                  }
+              }));
+          }
+      });
+  }
+    @Override
+    public void onBackPressed() {
+
+        Intent i=new Intent(this,ChooseActivity.class);
+        startActivity(i);
+
     }
 
 
@@ -93,6 +172,7 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("angry indian father", R.drawable.amrish_puri));
         memeList.add(new Meme("all things", R.drawable.all_things));
         memeList.add(new Meme("ancient aliens", R.drawable.ancient_aliens));
+        memeList.add(new Meme("anthony martial",R.drawable.anthony_martial));
         memeList.add(new Meme("angry baby", R.drawable.angry_baby));
         memeList.add(new Meme("angry doge", R.drawable.angry_doge));
         memeList.add(new Meme("arnab thug life", R.drawable.arnab_thug_life));
@@ -103,11 +183,14 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("batman slaps robin", R.drawable.batman_robin));
         memeList.add(new Meme("be like bill", R.drawable.be_like_bill));
         memeList.add(new Meme("bear grylls", R.drawable.bear_grylls));
+        memeList.add(new Meme("bitch please", R.drawable.bitch_please));
         memeList.add(new Meme("brace yourselves", R.drawable.brace_yourselves));
         memeList.add(new Meme("buddy jesus", R.drawable.buddy_christ));
         memeList.add(new Meme("business cat", R.drawable.business_cat));
+        memeList.add(new Meme("business baby", R.drawable.business_baby));
         memeList.add(new Meme("butthurt dweller", R.drawable.butthurt_dweller));
         memeList.add(new Meme("calm lemur", R.drawable.calm_lemur));
+        memeList.add(new Meme("captain kitten", R.drawable.capt_kitten));
         memeList.add(new Meme("cereal guy", R.drawable.cereal_guy));
         memeList.add(new Meme("chemistry cat", R.drawable.chem_cat));
         memeList.add(new Meme("chuck norris", R.drawable.chuck_norris));
@@ -115,6 +198,7 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("confused baby", R.drawable.conf_baby));
         memeList.add(new Meme("confession bear", R.drawable.confession_bear));
         memeList.add(new Meme("correction guy", R.drawable.correction_guy));
+        memeList.add(new Meme("daenerys targaryen",R.drawable.daenerys_targeryen));
         memeList.add(new Meme("dekh bhai", R.drawable.dekh_bhai));
         memeList.add(new Meme("disaster girl", R.drawable.disaster_girl));
         memeList.add(new Meme("depressed dog", R.drawable.depressed));
@@ -127,7 +211,8 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("dwight schrute", R.drawable.dwight_schrute));
         memeList.add(new Meme("engineering professor ", R.drawable.engg_prof));
         memeList.add(new Meme("everywhere toy story ", R.drawable.everywhere));
-        memeList.add(new Meme("evil raccoon plotting", R.drawable.evil_racc));
+        memeList.add(new Meme("evilest thing i can imagine", R.drawable.evilest_thing));
+        memeList.add(new Meme("evil plotting raccoon", R.drawable.evil_racc));
         memeList.add(new Meme("evil toddler", R.drawable.evil_toddler));
         memeList.add(new Meme("facepalm picard ", R.drawable.facepalm));
         memeList.add(new Meme("finally over", R.drawable.finally_over));
@@ -144,25 +229,34 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("happy cat", R.drawable.cat_smile));
         memeList.add(new Meme("i'll have you know", R.drawable.ill_have_you_know));
         memeList.add(new Meme("impossibru", R.drawable.impossibru));
+        memeList.add(new Meme("intimidating chalkboard", R.drawable.intimi_board));
+        memeList.add(new Meme("i have a dream..", R.drawable.i_have_dream));
+        memeList.add(new Meme("i know that feel", R.drawable.knwo_feel));
         memeList.add(new Meme("if you know what i mean", R.drawable.iykwim));
+        memeList.add(new Meme(("john terry"),R.drawable.john_terry));
         memeList.add(new Meme("jackie chan", R.drawable.jackie));
         memeList.add(new Meme("kejriwal happy", R.drawable.kejri));
         memeList.add(new Meme("kejriwal angry", R.drawable.kejru_angry));
         memeList.add(new Meme("kejriwal2", R.drawable.kejri2));
         memeList.add(new Meme("kermit frog(none of my business)", R.drawable.none_business));
-        memeList.add(new Meme("kim jong un sad", R.drawable.kim_jong_un_sad));
+        memeList.add(new Meme("sad kim jong un", R.drawable.kim_jong_un_sad));
         memeList.add(new Meme("the joker", R.drawable.joker));
         memeList.add(new Meme("lame pun eel", R.drawable.lame_pun_eel));
         memeList.add(new Meme("laughing obama", R.drawable.laughing_obama));
         memeList.add(new Meme("lazy college senior", R.drawable.lazy_college_senior));
+        memeList.add(new Meme("look son..",R.drawable.look_son));
         memeList.add(new Meme("great gatsby leo", R.drawable.leo_cheers));
         memeList.add(new Meme("liam neeson", R.drawable.liam_neeson));
         memeList.add(new Meme("lion king", R.drawable.lk));
         memeList.add(new Meme("look at all these..", R.drawable.look_at_all));
+        memeList.add(new Meme("mah nigga", R.drawable.mah_nigga));
         memeList.add(new Meme("matrix morpheus", R.drawable.matrix_morpheus));
+        memeList.add(new Meme("Michael jordan crying", R.drawable.mj_cry));
         memeList.add(new Meme("mj popcorn", R.drawable.mj_popcorn));
+        memeList.add(new Meme("mj car", R.drawable.mj_carlean));
         memeList.add(new Meme("mr.bean", R.drawable.mr_bean));
         memeList.add(new Meme("naacho bc", R.drawable.naacho_bc));
+        memeList.add(new Meme("nick young", R.drawable.nick_young));
         memeList.add(new Meme("NaMo checkout", R.drawable.namo_china));
         memeList.add(new Meme("Namo ", R.drawable.namo_s));
         memeList.add(new Meme("nana angry", R.drawable.nana_angry));
@@ -174,6 +268,7 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("pissed obama", R.drawable.obama_pissed));
         memeList.add(new Meme("weird expression obama", R.drawable.obama2));
         memeList.add(new Meme("patrick star", R.drawable.patrick_star));
+        memeList.add(new Meme("crying pikachu", R.drawable.pika_cry));
         memeList.add(new Meme("rare pepe", R.drawable.pepe));
         memeList.add(new Meme("bad luck sad pepe", R.drawable.pepe_sad));
         memeList.add(new Meme("philosoraptor", R.drawable.philosoraptor));
@@ -182,6 +277,8 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("good guy putin", R.drawable.putin_good));
         memeList.add(new Meme("rajanikanth mind it!", R.drawable.rajani_mindit));
         memeList.add(new Meme("raga's babbar sher", R.drawable.rahul_babbarsher));
+        memeList.add(new Meme("rahul applaud",R.drawable.rahul_applaud));
+        memeList.add(new Meme("sleeping beauty rahul",R.drawable.sleeping_rahul));
         memeList.add(new Meme("Rahul gandhi depressed", R.drawable.rahul1));
         memeList.add(new Meme("raga worrying", R.drawable.rahul2));
         memeList.add(new Meme("rich men laughing", R.drawable.rich_men_lol));
@@ -189,6 +286,8 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("sarcastic nicholas cage", R.drawable.sarcastic_nicholas_cage));
         memeList.add(new Meme("sansakari alok nath", R.drawable.aloknath1));
         memeList.add(new Meme("scared baby", R.drawable.scared_baby));
+        memeList.add(new Meme("science bitch", R.drawable.sci_bitch));
+        memeList.add(new Meme("sidhu chaa gaya guru!",R.drawable.sidhu));
         memeList.add(new Meme("scumbag steve", R.drawable.scumbag_steve));
         memeList.add(new Meme("shut up and take my money", R.drawable.shut_up_money));
         memeList.add(new Meme("severus snape", R.drawable.snape));
@@ -202,6 +301,7 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("spidey hot", R.drawable.spidey_hot));
         memeList.add(new Meme("spidey whisper", R.drawable.spidey_whisper));
         memeList.add(new Meme("spongebob and obama", R.drawable.sponge_obaa));
+        memeList.add(new Meme("spongegar", R.drawable.spongegar));
         memeList.add(new Meme("spongebob rainbow", R.drawable.spongebob_nocare));
         memeList.add(new Meme("squidward hard work", R.drawable.squid_hard_work));
         memeList.add(new Meme("squidward realisation", R.drawable.squidward));
@@ -212,9 +312,9 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("sweet brown", R.drawable.sweet_brown));
         memeList.add(new Meme("that escalaed quickly", R.drawable.that_escalate));
         memeList.add(new Meme("that would be great", R.drawable.that_would_be_great));
-        memeList.add(new Meme("the most interesting man", R.drawable.the_most_interesting_man));
+        memeList.add(new Meme("the most interesting man in the world", R.drawable.the_most_interesting_man));
         memeList.add(new Meme("third world sceptical kid", R.drawable.third_world_skeptical_kid));
-        memeList.add(new Meme("third world dancing kids", R.drawable.third_world_success_kid));
+        memeList.add(new Meme("third world success kids", R.drawable.third_world_success_kid));
         memeList.add(new Meme("to do list", R.drawable.to_do_list));
         memeList.add(new Meme("tony stark", R.drawable.tony));
         memeList.add(new Meme("too damn high", R.drawable.too_high));
@@ -228,6 +328,8 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("proud trump", R.drawable.proud_trump));
         memeList.add(new Meme("unhelpful high school teacher", R.drawable.unhelpful_high_school_teacher));
         memeList.add(new Meme("Victory baby", R.drawable.celeb_baby));
+        memeList.add(new Meme("vin diesel vs the rock", R.drawable.vin_rock));
+        memeList.add(new Meme("Varun dhawan maaf karde", R.drawable.varun_dhawan));
         memeList.add(new Meme("waiting..", R.drawable.wait));
         memeList.add(new Meme("what?", R.drawable.what2));
         memeList.add(new Meme("troll why?", R.drawable.why));
@@ -236,7 +338,10 @@ public class MemeListActivity extends AppCompatActivity {
         memeList.add(new Meme("wtf jackie", R.drawable.wtf_jackie));
         memeList.add(new Meme("yo dawg", R.drawable.yo_dawg));
         memeList.add(new Meme("yo goose", R.drawable.yo_goose));
+        memeList.add(new Meme("yo mama so fat",R.drawable.yo_mama_so_fat));
         memeList.add(new Meme("y you no..", R.drawable.yuno));
+        memeList.add(new Meme("zlatan does not know you",R.drawable.zlatan));
+        memeList.add(new Meme("zlatan not impressed",R.drawable.zlatan_serious));
     }
 
     public interface ClickListener {

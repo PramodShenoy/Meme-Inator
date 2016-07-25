@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/colorAccent"
+    android:background="@color/primaryC"
     tools:context=".SelectPictureActivity">
 
     <TextView
@@ -18,38 +18,27 @@
         android:textColor="#FFFFFF"
         android:text="WELCOME TO THE MEME GENERATOR!SELECT AN OPTION TO START"
         android:textSize="18sp" />
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:id="@+id/scroll_view"
-    android:layout_below="@+id/stage_one_instructions_textview"
-    android:layout_marginTop="30dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_centerInParent="true">
+
 
     <ImageView
         android:id="@+id/list_imageview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/will_presents"
-        android:layout_weight="1"/>
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/will_presents_mg"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1" />
+
         <ImageView
             android:id="@+id/picture_imageview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/john_mem"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/will_presents_mg2"
             android:layout_weight="1"
-            />
-
-
-
+            android:layout_marginLeft="4dp"/>
     </LinearLayout>
-</ScrollView>
-
 
 </RelativeLayout>

@@ -4,20 +4,20 @@
         "source": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_material.png",
-        "source": "D:\\app dev\\Meme-Inator\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_ic_menu_paste_material.png"
-    },
-    {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
         "source": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_material.png",
-        "source": "D:\\app dev\\Meme-Inator\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_ic_menu_cut_material.png"
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_material.png",
+        "source": "D:\\app dev\\Meme-Inator\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_ic_menu_paste_material.png"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_material.png",
+        "source": "D:\\app dev\\Meme-Inator\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\abc_ic_menu_cut_material.png"
     },
     {
         "merged": "D:\\app dev\\Meme-Inator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",

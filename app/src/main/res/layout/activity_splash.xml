@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark">
+    >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:src="@drawable/splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/iconw2"
+        android:scaleType="fitXY"
         android:id="@+id/splash_img"/>
 
     <TextView
@@ -19,7 +19,7 @@
         android:textSize="25dp"
         android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="false"
         android:text="DEVELOPED BY YOROZUYA STUDIOS" />
 
 </RelativeLayout>
